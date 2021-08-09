@@ -49,8 +49,11 @@ According to the summary below, the number of candidates per mentor by year vary
 ![The number of potential candidates per mentor by year](Analysis/05_candidates_per_mentor_by_year.png)
 
 ## Conclusion
- - The 
+ - The company has 90,938 potential retirees in total during the period from 2017 to 2020, which equivalent to averagely 22,735 empty positions each year. The HR department would have to plan carefully and work hard to fulfill these positions either by external hiring or internal promotions. 
+ - The potential retirees exist in all levels which might increase the difficulty of filling the empty positions.
+ - The number of candidates per mentor vary significantly from 11 - 20 candidates per mentor per year. This could be a heavy task for mentors which might reduce their productivity. The HR department should consider asking retirees to help to reduce the number of candidates per mentor. 
 
 ## Limit
  - The report doesn't take into account the impact of internal promotions. For example, when staffs are promoted to be senior staffs, the number of staffs to be hired will increase. 
  - The report doesn't take into account the possibilty where potential retirees decide to retire earlier or later than the retirement age (before and after 65 years old). 
+ - The report doesn't take into account the impact of technological advances that might affect the requirements of human labor. 
