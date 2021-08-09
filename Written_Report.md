@@ -8,6 +8,7 @@ This project focused on following items:
  - **The number of retirees by titles and ages** presented the total potential retirees by title and current age. 
  - **The number of internal eligible mentors** summarized the total elibile mentors for each title. 
  - **The number of potential candidates per mentor** calculated the number of candidates each mentor was about to coach to replace the retiring people. 
+ - **The number of potential candidates per mentor** calculated the number of candidates eachmentor was about to coach every year. 
 
 ## Analysis
 
@@ -39,6 +40,13 @@ This project focused on following items:
 
 ![The number of potential candidates per mentor](Analysis/04_candidates_per_mentor.png)
 
+
+### The number of potential candidates per mentor by year
+
+
+**The number of potential candidates per mentor by year**
+
+![The number of potential candidates per mentor by year](Analysis/05_candidates_per_mentor_by_year.png)
 
 ## Limit
 
