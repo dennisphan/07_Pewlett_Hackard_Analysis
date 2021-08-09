@@ -15,24 +15,28 @@ This project focused on following items:
 
 
 **The number of retirees by titles**
+
 ![The number of retirees by titles](Analysis/01_retirees_by_title.png)
 
 ### The number of retirees by titles and ages
 
 
 **The number of retirees by titles and ages**
+
 ![The number of retirees by titles and ages](Analysis/03_retirees_by_title_age.png)
 
 ### The number of internal eligible mentors
 
 
 **The number of internal eligible mentors**
+
 ![The number of internal eligible mentors](Analysis/02_mentor_by_title.png)
 
 ### The number of potential candidates per mentor
 
 
 **The number of potential candidates per mentor**
+
 ![The number of potential candidates per mentor](Analysis/04_candidates_per_mentor.png)
 
 
