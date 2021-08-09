@@ -46,8 +46,9 @@ GROUP BY title;
 -- DELIVERABLE 3
 -- Number of retirees by title and age
 SELECT 	uti.title, 
-		date_part('year', age('2018-01-01', emp.birth_date)) AS "Current_Age",
-		COUNT(date_part('year', emp.birth_date)) AS "quantity"
+		date_part('year', age('2018-01-01', emp.birth_date)) AS Current_Age,
+		COUNT(date_part('year', emp.birth_date)) AS quantity
+INTO retirees_title_age
 FROM unique_titles AS uti
 INNER JOIN employees AS emp
 	ON uti.emp_no = emp.emp_no
@@ -62,3 +63,16 @@ LEFT JOIN mentors_titles AS mti
 	ON rti.title = mti.title
 GROUP BY rti.title, rti.retirees, mti.mentors
 ORDER BY rti.retirees;
+
+-- Number of candidates per mentor by year
+SELECT 	rta.title, 
+		rta.Current_Age + 1955 AS "Year",
+		rta.quantity AS candidates,
+		mti.mentors,
+		rta.quantity/mti.mentors AS "Candidates per mentor"
+FROM retirees_title_age AS rta
+LEFT JOIN mentors_titles AS mti
+	ON rta.title = mti.title
+GROUP BY 1, 2, 3, 4, 5
+ORDER BY 1, 2;
+
